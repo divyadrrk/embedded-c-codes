@@ -26,5 +26,6 @@ int main()
         }
     }
     printf("\n no. of rising edges: %d \t no. of falling edges: %d\n", rise,fall);
+    printf("successful execution");
     return 0;
 }
