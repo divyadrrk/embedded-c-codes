@@ -10,7 +10,7 @@ int main()
     int fall=0;
     int i;
     //printf("Sample no   ||  Sample value    ||  Outcome     ");
-    for(i=0;i<len;i++)
+    for(i=0;i<=len;i++)
     {
         if(sig[i]==sig[i+1])
             printf("Sample no: %03d  ||  Sample value: %d  ||  level\n", i+1,sig[i]);
